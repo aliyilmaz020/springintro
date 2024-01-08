@@ -7,6 +7,7 @@ public class Main {
   }
   // IoC - Inversion of Control : Birbirinin alternatifi olan işleri yönetiriz
   // Dependency Injection
+  //
   // Spagetti
   // SOLID
 }
