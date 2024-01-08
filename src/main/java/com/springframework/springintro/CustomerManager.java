@@ -4,7 +4,13 @@ public class CustomerManager implements ICustomerService { // extend ya da inter
 
   private ICustomerDal customerDal;
 
-  public CustomerManager(ICustomerDal customerDal) {
+  // Constructer Injection
+  // public CustomerManager(ICustomerDal customerDal) {
+  // this.customerDal = customerDal;
+  // }
+
+  // setter injection
+  public void setCustomerDal(ICustomerDal customerDal) {
     this.customerDal = customerDal;
   }
 
