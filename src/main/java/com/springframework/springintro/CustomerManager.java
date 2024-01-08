@@ -1,6 +1,6 @@
 package com.springframework.springintro;
 
-public class CustomerManager {
+public class CustomerManager implements ICustomerService { // extend ya da interface olmazsa bağımlılık olur
 
   private ICustomerDal customerDal;
 

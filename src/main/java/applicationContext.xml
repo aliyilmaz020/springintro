@@ -10,4 +10,7 @@
   <bean id="database" class="com.springframework.springintro.MsSqlCustomerDal">
 
   </bean>
+  <bean id="service" class="com.springframework.springintro.CustomerManager">
+      <constructor-arg ref="database"/>
+  </bean>
 </beans>
