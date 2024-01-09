@@ -9,7 +9,7 @@ public class Main {
 
     ICustomerService customerService = context.getBean("service", ICustomerService.class);
     customerService.add();
-//
+//dd
     // CustomerManager manager = new CustomerManager(context.getBean("database",
     // ICustomerDal.class));
     // manager.add();
